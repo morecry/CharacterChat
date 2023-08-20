@@ -4,14 +4,15 @@ with Personalized Social Support*
 ![](./pic/characterchat.jpg)
 *CharacterChat is a social support conversation system, consisting of a llama-based model to generate persona- and memory-based response and a interpersonal matching model to dispatch a most compatible supporter agent from MBTI-1024 Bank for the help-seeker.*
 
+![](./pic/description.jpg)
 The overflow of this work is as follows: (1) we build the MBTI-1024 Bank (a group of virtual characters with complex persona and memory) by MBTI-based decomposition on ChatGPT
 (2) we collect the MBTI-S2Conv, a persona- and memory-based conversation dataset by improved role-playing prompting (3) we develop the CharaterChat, a social support conversation system, consisting of a llama-based model to generate persona- and memory-based response and a interpersonal matching model to dispatch a most compatible supporter agent from MBTI-1024 Bank for the help-seeker.
 
-![](./pic/description.jpg)
+
 
 # Getting Start
-## chatGPT Data
-In this part, you will get conversation records, role settings and other necessary information step by step from chatGPT. For this, we designed a pipeline. The code and data that need to be used in this pipeline are placed in the **src** and **data** folders respectively.
+## ChatGPT Data 
+In this part, you will get conversation records, role settings and other necessary information step by step from ChatGPT. For this, we designed a pipeline. The code and data that need to be used in this pipeline are placed in the **src** and **data** folders respectively.
 ### OpenAI api
 In order to use chatGPT, we called the interface of openai in the experiment. This means you better have several openai api keys (one is enough, but multiple can be faster). For details about the openai api key, please refer to the following link:
 [https://platform.openai.com/docs/api-reference/introduction](https://platform.openai.com/docs/api-reference/introduction)
