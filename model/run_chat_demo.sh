@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python model/demo/chat_demo.py --seeker_robot --supporter_robot

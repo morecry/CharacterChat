@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 streamlit run model/demo/web_supporter.py

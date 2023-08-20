@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python model/BERT/train_info_selecter.py
