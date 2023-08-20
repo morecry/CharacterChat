@@ -2,7 +2,7 @@
 This repository is the source code of the paper *CharacterChat: Learning towards Conversational AI
 with Personalized Social Support*
 ![](./pic/characterchat.jpg)
-*CharacterChat is a social support conversation system, consisting of a llama-based model to generate persona- and memory-based response and a interpersonal matching model to dispatch a most compatible supporter agent from MBTI-1024 Bank for the help-seeker.*
+*CharacterChat is a social support conversation system, consisting of a llama-based model to generate persona- and memory-based response, and a interpersonal matching model to dispatch a most compatible supporter agent from MBTI-1024 Bank for the help-seeker.*
 
 
 
