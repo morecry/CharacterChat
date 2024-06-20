@@ -134,12 +134,11 @@ The above datasets and models are not included in this repository, you can downl
 
 **DATASET**
 
-[Here]([https://drive.google.com/drive/folders/1n5UlZ4vm3bSBZv6c4kIvIQJHFrSZgON3?usp=drive_link](https://drive.google.com/drive/folders/1yrxh6aGy0Wr4F_77_4jmVoNOd-855GxD?usp=sharing))
+[Here](https://drive.google.com/drive/folders/1n5UlZ4vm3bSBZv6c4kIvIQJHFrSZgON3?usp=drive_link)
 
 **MODEL**
 
 [Here](https://drive.google.com/drive/folders/1We80A24Cpz2WPd4hPKA2Mv8Ac4hop9nC?usp=drive_link)
-[https://drive.google.com/drive/folders/1gCXbmFUS0f6SnhWGmU-Y5Bt4l3AcR390?usp=drive_link](https://drive.google.com/drive/folders/1gCXbmFUS0f6SnhWGmU-Y5Bt4l3AcR390?usp=drive_link)
 
 ## 3. demo
 ### 3.1. chat_demo
