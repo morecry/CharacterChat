@@ -99,7 +99,7 @@ python model/merge_lora.py model/models/Llama-2-7b-hf model/output/model_base mo
 ~~~python
 bash model/train_model_supporter.sh
 ~~~
-The training dataset of model_supporter is processed conversation records from previous pipeline. It will talk with others like a supporter.
+The training dataset of model_supporter is processed conversation records from the previous pipeline. It will talk with others like a supporter.
 
 After training, merge the trained adapter and the base model to get the full model_supporter.
 ~~~python
@@ -110,7 +110,7 @@ python model/merge_lora.py model/models/model_base model/output/model_supporter 
 ~~~python
 bash model/train_model_supporter.sh
 ~~~
-Same as model_supporter, the training dataset of model_supporter is processed conversation records from previous pipeline. It will talk with others like a seeker.
+Same as model_supporter, the training dataset of model_supporter is processed conversation records from the previous pipeline. It will talk with others like a seeker.
 
 After training, merge the trained adapter and the base model to get the full model_seeker.
 ~~~python
@@ -127,14 +127,16 @@ This model is used to select the currently used memory based on the conversation
 ~~~python
 bash model/train_model_persona_score.sh
 ~~~
-This model was used to assess the degree of personality fit between the two parties in the conversation. The training dataset of this model comes from the conversation evaluation results, average score of the three scoring criteria is used as matching score.
+This model was used to assess the degree of personality fit between the two parties in the conversation. The training dataset of this model comes from the conversation evaluation results, the average score of the three scoring criteria is used as a matching score.
 
 ### 2.3. Notice
-The above datasets and models are not included in this repository, you can download our datasets and models through links below.
+The above datasets and models are not included in this repository, you can download our datasets and models through the links below.
 
 **DATASET**
 
-[Here](https://drive.google.com/drive/folders/1n5UlZ4vm3bSBZv6c4kIvIQJHFrSZgON3?usp=drive_link)
+[MBTI-1024 Bank (Character Profile)](https://drive.google.com/file/d/1F2sVRzq5jPaH-01Uo42fVgyLIiL9aQH8/view?usp=sharing)
+
+[MBTI-S2Conv (Character Conversation)](https://drive.google.com/file/d/1Q5vpgQ9vOF7HzdpOnymzmoWb-hS8UNf2/view?usp=sharing)
 
 **MODEL**
 
