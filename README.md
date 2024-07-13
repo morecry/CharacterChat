@@ -136,7 +136,7 @@ The above datasets and models are not included in this repository, you can downl
 
 [MBTI-1024 Bank (Character Profile)](https://drive.google.com/file/d/1F2sVRzq5jPaH-01Uo42fVgyLIiL9aQH8/view?usp=sharing)
 
-[MBTI-S2Conv (Character Conversation)](https://drive.google.com/file/d/1Q5vpgQ9vOF7HzdpOnymzmoWb-hS8UNf2/view?usp=sharing)
+[MBTI-S2Conv (Character Conversation)](https://drive.google.com/file/d/1u_L2fotrA6DZ5i3PUQenNTSFEck1cf06/view?usp=sharing)
 
 **MODEL**
 
